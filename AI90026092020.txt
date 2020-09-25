@@ -1,0 +1,245 @@
+- Server
+	-> Loadbalanced-> at least 2 machines 
+
+-> Scale-> 100 users, 1000 users, 10 users, 0 users, 10k users
+	-> i need SCALABLE infrastructure
+
+- GLobal- distribution, disaster recovery, business contin.. 
+
+On Premise-> EXPENSIVE!!!!
+Infrastructure-> we take care
+Solutions-> you take care
+
+-> RENTING out the infra, platform, services  
+-> PAY for what you use!!
+
+Machine-> RAM, CPU, Disk, Network 
+Calculator-> CPU yes, 40 GB of disk? No! 
+Address Book-> huge disk, 16GB RAM? NO!
+
+Wastage of RESOURCES!!
+CLOUD-> ISOLATE STORAGE and COMPUTING from each other
+
+price(computing) >>>>> price(storage)
+
+-> HIGHLY available, super cheap BLOBS!
+	-> Data Lake: enteprise storage
+		-> on 24X7 
+		-> redundancy-> local, zonal, geo 
+
+
+-> traditional files
+-> Queues
+-> No sql tables
+-> high performance databases or warehouses!
+
+
+
+COMPUTING should be ISOLATED!
+	-> we will create and destroy computing resources as and
+	when needed!!! 
+
+Linked List v/s Tree (Heirarchy) 
+
+- storage data structure is BLOB (BINARY LARGE OBJECT) 
+	-> 0ss1ss-> broken into chunks!!! (storage efficiency) 
+	-> non-executable data
+	-> UNSTRUCTURED 
+	-> images, CSS, JS, video.... 
+	-> Page Blobs (VHD, application states) ,
+	   Block Blobs (general purpose, chunks of data)
+	      - once created they cannot be EDITED!
+		=> NO APPENDING!!!
+	-> dirty temporary appendable data-> 'APPEND BLOBS'
+		-> small capacity blobs 
+
+ANALYZE this info-> NIGHTMARE 
+	-> HEIRARCHY
+	-> SIMULATE FOLDER STRUCTURE (pointer manipulation)
+	-> NO ACTUAL DATA MOVEMENT!!! only pointers make us think
+		of folders!!!
+	-> ORGANIZED, department/project/target based info strage
+	-> still BLOB storage!
+
+
+
+AI, ML-> COMPUTE and STORAGE are separate!!!!
+	-> BLOB storage or DATA Lake -> massive amount of info to
+		analyze
+	-> 'CONTAINERS'->clusters for COMPUTING 
+		--> Docker and Kubernetes 
+
+-> NOT BE OWNING but RENTING INFRA!!!
+
+
+Web Dev-> MySQL, PhP, AngularJS 
+		-> Why not automate it???
+	-> old or legacy system 
+		-> lift and shift???
+	-> controlled environments
+=> CONTAINERS 	
+
+ML=> 
+	y = mx + c
+	=> BOUNDARY guiding the locus of a POINT or plane
+ y = m log x + c 
+
+Classification-> discrete math
+Regression-> continuous math
+
+Virtual machines-> Infra as a Service
+
+Physical Security-> Azure
+Everything else-> us
+
+
+
+https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/tools-included
+https://github.com/a-forty-two/cylons/blob/master/02_K_Means.ipynb
+https://aka.ms/explore-computer-vision 
+https://github.com/jedijulia/porter-stemmer/blob/master/stemmer.py
+https://docs.microsoft.com/en-us/learn/certifications/exams/ai-900
+
+Machine learning is finding values of WEIGHTS and BIASES
+-> in y = mx + c-> m is weight, c is bias
+we provide LABELS (y) and INPUTS (x)
+ML-> is to calculate these M and C 
+Deep Learning: Images, Videos, Sounds, Time 
+Series, complex relations, 
+
+00:50IST 12:20 
+
+Please fill in the feedback:
+https://tcheck.co/n9mTQ9
+
+Cognitive
++ Conversational
+
+
+TF, Pytorch, ... keras, theano 
+
+Age  Salary Happiness
+08    23     yes (1)
+30     20000   no (0)
+10....
+
+y= mx + c-> if y>0.5-> yes, else 0 
+
+
+100 potatoes
+
+Team 1:   5 potatoes/hour 
+	-> mov ax, bx
+	   int 21h 
+
+Team 2:   1 potato/hour-> 10 such people
+
+??? TEAM2-> GPU
+
+CPU-> MHz, GHz,
+GPU-> GBs
+
+COMPARE THE ALGORITHM
+a1 , a2
+
+METRICS-> tie breaker!
+
+- small payload, 9AM-6AM
+	- Azure Container Instances
+		(Docker containers)
+- ALWAYS oN, HIGHLY AVAILABLE
+	- High capacity Cluster
+	- Azure Kubernetes Service 
+	- min 3 machines (prod), 1 (dev/test)
+	- min cost!!!
+	- PIPELINES!!!
+
+Clean:
+	- Dropped 
+	- Replaced
+		- Mean, Median, Mode, Custom
+
+Most common value:
+50 candies, 10 socks.
+Missing label?-> Candy's probab was higher!!!
+
+Automobile Price (Raw)
+Total: 200..
+Norm losses:
+	40+ missing values
+
+40/200=> 20% of my data was missing!!!!
+
+Output=> Price-> only 4 values were missing!!!
+
+Split:
+	- rows
+	- relative expressions
+		>, < , <=
+		-> OUTLIERS
+	- regular exp 
+
+
+Qualities of a good split:
+-> training > testing 
+
+-> no new info in testing!!!
+
+-> training contains all UNIQUE cases 
+
+-> Training assumptions are usually assumed
+	to be TRUE for testing data also!!
+
+
+
+ONNX-> open neural network exchange 
+
+
+
+AI:
+	- static and hardcoded!!!!!
+	- continuous if-else loop!(switch)
+	- 
+
+AI-900
+	: Application AI Engineer (AI100)
+	: Science: Data Science (DP100)
+
+
+- 30 to 35 questions
+-> Mutliple choice, no labs,
+	scenarios based
+-> Match the following, arranging in the correct order 
+
+Smart Car-> Computer Vision - infrared-> path obstructed 
+	Image Processing [array of pixels] 
+
+	-> somebody jumps in front on car
+	-> Computer Vision: 500ms-2s
+		-> accident!
+		-> depth sensor-> automatically stop!!! 
+
+
+
+I did not say he stole my shoes
+
+	- i never said it
+	- i wrote 
+	- she did it
+	- borrowed!
+	- my neighbor's
+	- laptop! 
+
+
+Using this is Dev/test-> FREE
+Using this is production-> FREE -> 5k-10k API calls/month
+			-> Azure Subscription!!!
+
+	
+AI900-> AI100, DP100, Data Engineering (DP200+201) 
+
+
+
+
+
+
